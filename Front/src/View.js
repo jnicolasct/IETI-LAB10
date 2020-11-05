@@ -16,7 +16,6 @@ export class View extends React.Component {
         axios.get('http://localhost:8080/api/todo', 
         {headers:{"Content-ype":"application/json"}})
         .then(response => {
-            console.log(response);
             let todoList = [];
             response.data.forEach(function (task) {
                 todoList.push({
