@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb7308ef-d11d-4385-a77a-0c97af5bfe94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/src/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/Task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/View.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +63,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604585641099">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604619841514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604585641099" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604619841514" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1604585257423">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

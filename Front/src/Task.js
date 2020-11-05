@@ -8,22 +8,18 @@ export class Task extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {image:''};
+        this.state = {file:''};
     }
 
     async componentDidMount(){
-        let imagen = 'http://localhost:8080/api/files/'+ this.props.fileUrl;
-        await this.setState({image:imagen});     
-        console.log(imagen);           
+        let newfile = 'http://localhost:8080/api/files/'+ this.props.fileUrl;
+        await this.setState({file:newfile});               
     }
     
     render() {
         return (
             <div>
                 <Card  variant="outlined">
-                    <CardMedia>
-                        <td>{this.state.image ? <img src={this.state.image} /> : <div/>}</td>
-                    </CardMedia>
                     <CardContent>
                         <Typography variant="h5" component="h2">
                             {this.props.description}
@@ -34,7 +30,9 @@ export class Task extends React.Component {
                         <Typography variant="h5" component="h2">
                             {this.props.RName}
                         </Typography>
-                        
+                        <center>
+                            <td>{this.state.file.slice(-3) === "pdf" ? <embed  src={this.state.file} width="500" height="500"/> : <img src={this.state.file} width="500" height="500"/>}</td>
+                        </center>
                     </CardContent>
                 </Card>
             </div>
